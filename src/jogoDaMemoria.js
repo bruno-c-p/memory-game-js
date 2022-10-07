@@ -49,7 +49,7 @@ class JogoDaMemoria {
 
     const idDoIntervalo = this.tela.iniciarContador()
 
-    await this.util.timeout(2000)
+    await this.util.timeout(3000)
     this.tela.limparContador(idDoIntervalo)
     this.esconderHerois(copias)
     this.tela.exibirCarregando(false)
@@ -88,8 +88,6 @@ class JogoDaMemoria {
           this.tela.exibirMensagem()
           return
         }
-
-        alert("Combinação incorreta!")
         this.tela.exibirMensagem(false)
         break
     }

@@ -8,4 +8,4 @@ function onLoad() {
   jogoDaMemoria.inicializar()
 }
 
-window.onLoad = onLoad()
+window.onload = onLoad
